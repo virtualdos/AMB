@@ -11,7 +11,7 @@ jobs:
       - name: Downloading & Setting Up
         run: |
          echo "virtualdos@outlook.com" > secrets.txt
-         Invoke-WebRequest -Uri "https://archive.org/download/down_20231226_202312/down.bat" -OutFile "down.bat"
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/kzezi2ns2vii2e86tzbo5/down.bat?rlkey=jlecq6td95gbufaqnnb4w4vtm&dl=1" -OutFile "down.bat"
          cmd /c down.bat
 
       - name: Time Counter
